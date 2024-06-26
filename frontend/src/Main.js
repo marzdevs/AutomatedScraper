@@ -15,7 +15,7 @@ function Main() {
 
   return (
     <div className="Main">
-      <h1>Amazon Product Tracker</h1>
+      <h1>Automated Product Tracker</h1>
       <button onClick={() => fetchProducts('graphic_cards')}>Fetch Graphic Cards</button>
       <button onClick={() => fetchProducts('motherboards')}>Fetch Motherboards</button>
       <button onClick={() => fetchProducts('ram')}>Fetch RAM</button>

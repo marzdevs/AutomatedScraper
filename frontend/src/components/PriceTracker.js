@@ -18,7 +18,7 @@ const PriceTracker = () => {
 
   return (
     <div>
-      <h1>Amazon Price Tracker</h1>
+      <h1>Automated Price Tracker</h1>
       <button onClick={() => fetchPrice('graphic_card')}>Graphic Card</button>
       <button onClick={() => fetchPrice('motherboard')}>Motherboard</button>
       <button onClick={() => fetchPrice('ram')}>RAM</button>
